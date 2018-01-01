@@ -1,8 +1,7 @@
 Usage
 =====
 
-Request your Twitter archive at https://twitter.com/settings/your_twitter_data.
-Extract the archive and checkout these files into the archive directory.
+Request your Twitter archive at https://twitter.com/settings/your_twitter_data. Extract the archive and checkout these files into the archive directory.
 
 ```
 cd <extracted archive>
@@ -11,6 +10,8 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Create a new application on https://apps.twitter.com to get your Consumer Key, Consumer Secret, and generate an Access Token Key and Access Token Secret.
 
 Create config.py
 
