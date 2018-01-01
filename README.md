@@ -1,7 +1,12 @@
 Usage
 =====
 
+Request your Twitter archive at https://twitter.com/settings/your_twitter_data.
+Extract the archive and checkout these files into the archive directory.
+
 ```
+cd <extracted archive>
+git clone https://github.com/jplock/tweet_purge.git
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
