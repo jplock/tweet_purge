@@ -35,7 +35,9 @@ oldest = now - delta
 print 'OLDEST: {}'.format(oldest)
 
 KEEP_TWEET_IDS = [
-    '814131260784312325'
+    '814131260784312325',  # keybase verification
+    '947874760096063488',  # announcing tweet_purge
+    '947890779468500993',  # final tweet
 ]
 
 with open('tweets.csv', 'r') as csvfile:
